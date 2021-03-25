@@ -3,6 +3,7 @@ import {SafeAreaView, StatusBar, ScrollView} from 'react-native';
 import HomeScreen from './src/screens/Home';
 import Post from './src/components/Post';
 import SearchResultsScreen from './src/screens/SearchResults';
+import DestinationSearchScreen from './src/screens/DestinationSearch';
 
 import feed from './assets/data/feed';
 
@@ -17,7 +18,8 @@ const App = () => {
             <Post post={postItem} />
           ))}
         </ScrollView>*/}
-        <SearchResultsScreen />
+        {/*<SearchResultsScreen />*/}
+        <DestinationSearchScreen />
       </SafeAreaView>
     </>
   );
